@@ -1,0 +1,25 @@
+$borderSm: 4px;
+$borderMd: 8px;
+$borderLg: 16px;
+$borderMx: 16px 4px;
+$borderMax: 999px;
+
+.brSm {
+  border-radius: $borderSm;
+}
+
+.brMd {
+  border-radius: $borderMd;
+}
+
+.brLg {
+  border-radius: $borderLg;
+}
+
+.brMx {
+  border-radius: $borderMx;
+}
+
+.brMax {
+  border-radius: $borderMax;
+}

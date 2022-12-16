@@ -1,0 +1,80 @@
+$color-primary: #9356dc;
+$color-secondary: #ff79da;
+$color-tertiary: #99e2d0;
+
+$black: #000000;
+$dark-grey: #333;
+$grey: #ddd;
+$light-grey: #eee;
+$white: #fff;
+
+/**
+* Colors classes
+**/
+.color-primary {
+  color: $color-primary;
+}
+
+.color-secondary {
+  color: $color-secondary;
+}
+
+.color-tertiary {
+  color: $color-tertiary;
+}
+
+.color-black {
+  color: $black;
+}
+
+.color-dark-grey {
+  color: $dark-grey;
+}
+
+.color-grey {
+  color: $grey;
+}
+
+.color-white {
+  color: $white;
+}
+
+.color-light-grey {
+  color: $light-grey;
+}
+
+/**
+* Background colors classes
+**/
+
+.bg-color-primary {
+  background-color: $color-primary;
+}
+
+.bg-color-secondary {
+  background-color: $color-secondary;
+}
+
+.bg-color-tertiary {
+  background-color: $color-tertiary;
+}
+
+.bg-color-black {
+  background-color: $black;
+}
+
+.bg-color-dark-grey {
+  background-color: $dark-grey;
+}
+
+.bg-color-grey {
+  background-color: $grey;
+}
+
+.bg-color-light-grey {
+  background-color: $light-grey;
+}
+
+.bg-color-white {
+  color: $white;
+}

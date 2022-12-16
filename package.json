@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "sass": "^1.56.1"
+  },
+  "name": "p3-dynamisez-une-page-web-avec-des-animations-css",
+  "description": "Vous venez d’être recruté chez Ohmyfood!, en tant que développeur junior. Félicitations !",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arzhgell/P3-Dynamisez-une-page-web-avec-des-animations-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arzhgell/P3-Dynamisez-une-page-web-avec-des-animations-CSS/issues"
+  },
+  "homepage": "https://github.com/arzhgell/P3-Dynamisez-une-page-web-avec-des-animations-CSS#readme"
+}

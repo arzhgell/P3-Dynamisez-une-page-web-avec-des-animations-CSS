@@ -1,0 +1,58 @@
+.exploration-button {
+  border-radius: $borderMax;
+  color: white;
+  border: none;
+  box-shadow: $md-shadow;
+  background: rgb(255, 121, 218);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 121, 218, 1) 0%,
+    rgba(147, 86, 220, 1) 75%
+  );
+  font-weight: bold;
+  padding: $spacingSm $spacingLg $spacingSm $spacingLg;
+  margin-top: $spacingLg;
+  margin-bottom: $spacingLg;
+}
+
+.step-item {
+  background-color: $color-primary;
+  border-radius: $borderMax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  position: relative;
+  left: -30px;
+  width: 25px;
+  height: 25px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: $col-12;
+  aspect-ratio: 3 / 2;
+  border-radius: $borderLg;
+  box-shadow: $md-shadow;
+  margin-top: $spacingLg;
+
+  img {
+    height: 66%;
+    object-fit: cover;
+    border-radius: $borderLg $borderLg 0 0;
+  }
+
+  .new {
+    background-color: $color-tertiary;
+    color: darken($color-tertiary, 40%);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: $col-3;
+    text-align: center;
+    padding: $spacingXXSm;
+    border-radius: $borderSm;
+  }
+}
