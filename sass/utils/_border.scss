@@ -1,6 +1,7 @@
 $borderSm: 4px;
 $borderMd: 8px;
 $borderLg: 16px;
+$borderXLg: 32px;
 $borderMx: 16px 4px;
 $borderMax: 999px;
 
@@ -13,6 +14,10 @@ $borderMax: 999px;
 }
 
 .brLg {
+  border-radius: $borderLg;
+}
+
+.brXLg {
   border-radius: $borderLg;
 }
 

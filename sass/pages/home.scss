@@ -1,20 +1,3 @@
-.exploration-button {
-  border-radius: $borderMax;
-  color: white;
-  border: none;
-  box-shadow: $md-shadow;
-  background: rgb(255, 121, 218);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 121, 218, 1) 0%,
-    rgba(147, 86, 220, 1) 75%
-  );
-  font-weight: bold;
-  padding: $spacingSm $spacingLg $spacingSm $spacingLg;
-  margin-top: $spacingLg;
-  margin-bottom: $spacingLg;
-}
-
 .step-item {
   background-color: $color-primary;
   border-radius: $borderMax;
