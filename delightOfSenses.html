@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./public/css/style.css" />
     <script
       src="https://kit.fontawesome.com/ae0defa13c.js"
       crossorigin="anonymous"
@@ -10,18 +11,162 @@
     <title>OhMyFood - Le délice des sens</title>
   </head>
   <body>
-    <header>
-      <h1>ohmyfood</h1>
+    <header
+      class="d-flex justify-content-start align-items-center md-shadow p-XSm"
+    >
+      <a href="./index.html" class="col-2"
+        ><i class="fa-solid fa-arrow-left-long color-dark-grey fa-lg"></i
+      ></a>
+      <h1 class="col-8 text-center">ohmyfood</h1>
     </header>
-    <main></main>
-    <footer>
-      <p>ohmyfood</p>
-      <a href="#"><i class="fa-solid fa-utensils"></i>Proposer un restaurant</a>
-      <a href="#"
-        ><i class="fa-solid fa-handshake-angle"></i>Devenir partenaire</a
+    <main>
+      <section class="d-flex flex-column">
+        <img src="public/images/restaurants/ldds.jpg" />
+      </section>
+      <section class="p-Sm menu">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1 class="size5">Le délice des sens</h1>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div>
+          <p class="uppercase mt-Md">Entrées</p>
+          <hr />
+          <div class="dishes">
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Tartare de thon</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Assaisonné au yuzu</p>
+                  <p class="bold price">25€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Bouchée de homard croustillant</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Et sa farandole de petits légumes</p>
+                  <p class="bold price">35€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Velouté de cèpes</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Aux truffes</p>
+                  <p class="bold price">20€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="uppercase mt-Md">Plats</p>
+          <hr />
+          <div class="dishes">
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Poulet rôti aux herbes de Provences</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Et sa crème de truffe</p>
+                  <p class="bold price">40€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Langouste rôtie</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Et ses légumes de saison</p>
+                  <p class="bold price">35€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Côte de bœuf Angus</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Et sa purée de panais</p>
+                  <p class="bold price">44€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+          </div>
+
+          <p class="uppercase mt-Md">Desserts</p>
+          <hr />
+          <div class="dishes">
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Farandole de desserts</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Du chef</p>
+                  <p class="bold price">18€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Crème brûlée</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">Revisitée</p>
+                  <p class="bold price">22€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+            <div class="dish d-flex brLg md-shadow mt-Sm bg-color-white">
+              <div class="d-flex flex-column col-12 p-Sm">
+                <p class="bold">Tiramisu</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <p class="mt-XSm">À la noisette</p>
+                  <p class="bold price">23€</p>
+                </div>
+              </div>
+              <div class="check">
+                <i class="fa-solid fa-circle-check fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <button class="button-primary">Commander</button>
+    </main>
+    <footer class="bg-color-dark-grey d-flex flex-column p-Md">
+      <h1 class="size6 color-white">ohmyfood</h1>
+      <a href="#" class="mt-Sm"
+        ><i class="fa-solid fa-utensils mr-Sm mt-XSm"></i>Proposer un
+        restaurant</a
       >
-      <a href="#">Mentions légales</a>
-      <a href="#">Contact</a>
+      <a href="#"
+        ><i class="fa-solid fa-handshake-angle mr-XSm mt-XSm"></i>Devenir
+        partenaire</a
+      >
+      <a href="#" class="mt-XSm">Mentions légales</a>
+      <a href="#" class="mt-XSm">Contact</a>
     </footer>
   </body>
 </html>
