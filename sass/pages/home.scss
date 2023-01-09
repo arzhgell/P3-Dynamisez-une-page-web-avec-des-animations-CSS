@@ -39,3 +39,31 @@
     border-radius: $borderSm;
   }
 }
+
+.heart-container {
+  position: relative;
+  right: 32px;
+
+  .fa-heart {
+    color: #9356dc;
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  .fa-regular {
+    opacity: 1;
+  }
+
+  .fa-solid {
+    opacity: 0;
+  }
+
+  &:hover {
+    .fa-regular {
+      opacity: 0;
+    }
+    .fa-solid {
+      opacity: 1;
+    }
+  }
+}

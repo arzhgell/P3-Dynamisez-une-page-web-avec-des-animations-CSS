@@ -16,3 +16,18 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.width-limited,
+.menu {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.illustration-container {
+  height: 300px;
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
