@@ -1,18 +1,22 @@
-$col-1: calc((1 / 12) * 100%);
-$col-2: calc((2 / 12) * 100%);
-$col-3: calc((3 / 12) * 100%);
-$col-4: calc((4 / 12) * 100%);
-$col-5: calc((5 / 12) * 100%);
-$col-6: calc((6 / 12) * 100%);
-$col-7: calc((7 / 12) * 100%);
-$col-8: calc((8 / 12) * 100%);
-$col-9: calc((9 / 12) * 100%);
-$col-10: calc((10 / 12) * 100%);
-$col-11: calc((11 / 12) * 100%);
-$col-12: calc((12 / 12) * 100%);
+$col-1: calc((1 / 12) * 95%);
+$col-2: calc((2 / 12) * 95%);
+$col-3: calc((3 / 12) * 95%);
+$col-4: calc((4 / 12) * 95%);
+$col-5: calc((5 / 12) * 95%);
+$col-6: calc((6 / 12) * 95%);
+$col-7: calc((7 / 12) * 95%);
+$col-8: calc((8 / 12) * 95%);
+$col-9: calc((9 / 12) * 95%);
+$col-10: calc((10 / 12) * 95%);
+$col-11: calc((11 / 12) * 95%);
+$col-12: 100%;
 
 .d-flex {
   display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .flex-column {
@@ -81,4 +85,114 @@ $col-12: calc((12 / 12) * 100%);
 
 .col-12 {
   width: $col-12;
+  max-width: -webkit-fill-available;
+}
+
+@media (min-width: 992px) {
+  .flex-lg {
+    display: flex;
+  }
+
+  .col-lg-1 {
+    width: $col-1;
+  }
+
+  .col-lg-2 {
+    width: $col-2;
+  }
+
+  .col-lg-3 {
+    width: $col-3;
+  }
+
+  .col-lg-4 {
+    width: $col-4;
+  }
+
+  .col-lg-5 {
+    width: $col-5;
+  }
+
+  .col-lg-6 {
+    width: $col-6;
+  }
+
+  .col-lg-7 {
+    width: $col-7;
+  }
+
+  .col-lg-8 {
+    width: $col-8;
+  }
+
+  .col-lg-9 {
+    width: $col-9;
+  }
+
+  .col-lg-10 {
+    width: $col-10;
+  }
+
+  .col-lg-11 {
+    width: $col-11;
+  }
+
+  .col-lg-12 {
+    width: $col-12;
+    max-width: -webkit-fill-available;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-md {
+    display: flex;
+  }
+  .col-md-1 {
+    width: $col-1;
+  }
+
+  .col-md-2 {
+    width: $col-2;
+  }
+
+  .col-md-3 {
+    width: $col-3;
+  }
+
+  .col-md-4 {
+    width: $col-4;
+  }
+
+  .col-md-5 {
+    width: $col-5;
+  }
+
+  .col-md-6 {
+    width: $col-6;
+  }
+
+  .col-md-7 {
+    width: $col-7;
+  }
+
+  .col-md-8 {
+    width: $col-8;
+  }
+
+  .col-md-9 {
+    width: $col-9;
+  }
+
+  .col-md-10 {
+    width: $col-10;
+  }
+
+  .col-md-11 {
+    width: $col-11;
+  }
+
+  .col-md-12 {
+    width: $col-12;
+    max-width: -webkit-fill-available;
+  }
 }

@@ -12,15 +12,13 @@ body {
   margin: 0;
 }
 
+main {
+  min-height: calc(100vh - 262px);
+}
+
 a {
   text-decoration: none;
   color: white;
-}
-
-.width-limited,
-.menu {
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 .illustration-container {
@@ -29,5 +27,48 @@ a {
   img {
     height: 100%;
     object-fit: cover;
+  }
+}
+
+.loader-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: $white;
+  z-index: 1;
+  animation: fadeOutAnimation linear 0.5s;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid $color-primary;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    visibility: visible;
+  }
+  90% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

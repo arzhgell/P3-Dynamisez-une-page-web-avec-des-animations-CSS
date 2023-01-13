@@ -9,6 +9,15 @@ $spacingXXLg: 64px;
 /**
  * Margin
  **/
+.mx-XSm {
+  margin-right: $spacingXSm;
+  margin-left: $spacingXSm;
+}
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .m-XXSm {
   margin: $spacingXXSm;
 }

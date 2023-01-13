@@ -3,11 +3,17 @@
   bottom: 25px;
   border-radius: $borderXLg $borderXLg 0 0;
   background-color: #fcfcfc;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .dish {
   overflow: hidden;
   position: relative;
+}
+
+.price {
+  width: $col-1;
 }
 
 .dish:hover {
