@@ -85,7 +85,7 @@ $col-12: 100%;
 
 .col-12 {
   width: $col-12;
-  max-width: -webkit-fill-available;
+  max-width: fill-available;
 }
 
 @media (min-width: 992px) {
@@ -139,7 +139,7 @@ $col-12: 100%;
 
   .col-lg-12 {
     width: $col-12;
-    max-width: -webkit-fill-available;
+    max-width: fill-available;
   }
 }
 
@@ -193,6 +193,6 @@ $col-12: 100%;
 
   .col-md-12 {
     width: $col-12;
-    max-width: -webkit-fill-available;
+    max-width: fill-available;
   }
 }

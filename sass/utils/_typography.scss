@@ -20,47 +20,46 @@ html {
   font-size: 2.3rem;
   line-height: 52px;
   font-weight: 700;
-  letter-spacing: -1.5%;
 }
 
 @mixin size2 {
   font-size: 2.125rem;
   line-height: 48px;
   font-weight: 700;
-  letter-spacing: -0.3%;
+
 }
 
 @mixin size3 {
   font-size: 1.875rem;
   line-height: 40px;
   font-weight: 700;
-  letter-spacing: 0%;
+
 }
 
 @mixin size4 {
   font-size: 1.625rem;
   line-height: 36px;
   font-weight: 600;
-  letter-spacing: 0%;
+
 }
 
 @mixin size5 {
   font-size: 1.5rem;
   line-height: 32px;
   font-weight: 600;
-  letter-spacing: 0%;
+
 }
 
 @mixin size6(
   $font-weight: 400,
   $text-transform: none,
   $text-decoration: none,
-  $font-style: none
+  $font-style: normal
 ) {
   font-size: 1.125rem;
   line-height: 24px;
   font-weight: $font-weight;
-  letter-spacing: 0%;
+
   text-transform: $text-transform;
   text-decoration: $text-decoration;
   font-style: $font-style;
@@ -70,31 +69,31 @@ html {
   $font-weight: 400,
   $text-transform: none,
   $text-decoration: none,
-  $font-style: none
+  $font-style: normal
 ) {
   font-size: 1rem;
   line-height: 24px;
   font-weight: $font-weight;
-  letter-spacing: 0%;
+
   text-transform: $text-transform;
   text-decoration: $text-decoration;
   font-style: $font-style;
 }
 
-@mixin size8($font-weight: 400, $text-decoration: none, $font-style: none) {
+@mixin size8($font-weight: 400, $text-decoration: none, $font-style: normal) {
   font-size: 0.875rem;
   line-height: 20px;
   font-weight: $font-weight;
-  letter-spacing: 0%;
+
   text-decoration: $text-decoration;
   font-style: $font-style;
 }
 
-@mixin size9($font-weight: 400, $text-decoration: none, $font-style: none) {
+@mixin size9($font-weight: 400, $text-decoration: none, $font-style: normal) {
   font-size: 0.75rem;
   line-height: 16px;
   font-weight: $font-weight;
-  letter-spacing: 0%;
+
   text-decoration: $text-decoration;
   font-style: $font-style;
 }
