@@ -54,20 +54,26 @@ hr {
 }
 
 .dishes div:nth-child(1) {
-  animation: 1s fadeIn;
+  animation: 1s fadeIn 1s;
 }
 
 .dishes div:nth-child(2) {
-  animation: 2s fadeIn;
+  animation: 2s fadeIn 1s;
 }
 
 .dishes div:nth-child(3) {
-  animation: 3s fadeIn;
+  animation: 3s fadeIn 1s;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
   }
   100% {
     opacity: 1;
