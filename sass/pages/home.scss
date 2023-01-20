@@ -50,7 +50,7 @@
       rgb(255, 121, 218) 0%,
       rgb(147, 86, 220) 75%
     );
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
     transition: 0.5s;
