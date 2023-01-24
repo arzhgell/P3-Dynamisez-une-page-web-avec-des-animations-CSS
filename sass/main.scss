@@ -72,3 +72,38 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.heart-container {
+  position: relative;
+  right: 32px;
+
+  .fa-heart {
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  .fa-regular {
+    color: black;
+    opacity: 1;
+  }
+
+  .fa-solid {
+    opacity: 0;
+    background: radial-gradient(
+      circle at 33% 100%,
+      rgb(255, 121, 218) 0%,
+      rgb(147, 86, 220) 75%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  &:hover {
+    .fa-regular {
+      opacity: 0;
+    }
+    .fa-solid {
+      opacity: 1;
+    }
+  }
+}
